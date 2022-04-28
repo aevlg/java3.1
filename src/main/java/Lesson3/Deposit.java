@@ -23,7 +23,7 @@ public class Deposit {
         //driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer");
 
 
-        driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
+        driver.get("https://asu.edu.ru");
 
 
         //найти все элементы
@@ -50,14 +50,18 @@ public class Deposit {
 
 // клик по элемнетам
         webElement1.click();
+        Thread.sleep(10000l);
         webElement2.click();
+        Thread.sleep(10000l);
 
         webElement3.click();
         webElement4.click();
+        Thread.sleep(10000l);
 
         webElement5.click();
         webElement7.sendKeys("100");
         webElement8.click();
+        Thread.sleep(10000l);
 
 
         try {

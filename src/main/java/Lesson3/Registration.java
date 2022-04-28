@@ -32,7 +32,8 @@ public class Registration {
 
         //найти все элементы
         WebElement webElement1 = driver.findElement(By.xpath("//button[contains(.,'Customer Login')]"));
-
+        webElement1.click();
+        Thread.sleep(10000l);
         WebElement webElement2 = driver.findElement(By.xpath("//select[@id='userSelect']"));
         WebElement webElement3 = driver.findElement(By.xpath("//*[@id=\"userSelect\"]/option[3]"));
         WebElement webElement4 = driver.findElement(By.xpath("//button[@type='submit']"));
