@@ -60,7 +60,7 @@ public class Deposit {
 
         webElement5.click();
         webElement7.sendKeys("100");
-        webElement8.click();
+
         Thread.sleep(10000l);
 
 

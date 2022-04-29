@@ -1,5 +1,5 @@
 package lesson5;
 
-public  abstract class Registration {
 
-}
+import org.junit.jupiter.api.Test;
+
